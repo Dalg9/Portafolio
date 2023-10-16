@@ -17,9 +17,13 @@ body {
 .header {
     background-color: #001F3F;
     color: #fff;
-    padding: 50px 0;
+    padding: 30px 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 /* Barra de navegación */
 .navbar {
@@ -30,9 +34,11 @@ body {
 .nav-list {
     list-style: none;
     display: flex;
-    justify-content: flex-end;
+    /*justify-content: flex-end;*/
     align-items: center;
     padding: 10px 0;
+    text-align: center;
+   justify-content: center;
 }
 
 .nav-list li {
@@ -72,7 +78,8 @@ body {
 h2 {
     font-size: 2em;
     margin-bottom: 40px;
-    color: #333;
+    color: #333
+    
 }
 
 /* Trabajos */
@@ -98,3 +105,23 @@ h2 {
     text-align: center;
     padding: 20px 0;
 }
+
+#foto_perfil{
+border-radius: 50%;
+    max-width: 20%; /* La imagen se ajustará al ancho del contenedor */
+    max-height: 20%; /* La imagen se ajustará al alto del contenedor */
+    width: auto; /* Para mantener la relación de aspecto */
+    height: auto; /* Para mantener la relación de aspecto */
+}
+.nombre {
+    font-size: 1.5em;
+    margin-top: 10px; /* Agrega un margen superior para espaciarlo de la imagen */
+}
+
+/* Agrega espacio superior (margen) al título h2 "Experiencia Laboral" */
+#titulo_experiencia {
+    margin-top: 10px; /* Puedes ajustar el valor según tus preferencias para el espaciado. */
+    margin-bottom: 50px;
+   
+}
+
