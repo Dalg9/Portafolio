@@ -719,6 +719,8 @@
 
 		@media screen and (max-width: 1280px) {
 
+			
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1975,6 +1977,7 @@
 		}
 
 /* Image */
+   
 
 	.image {
 		border-radius: 0.35em;
@@ -2631,7 +2634,7 @@
 		#main > section {
 			border-top: solid 2px #efefef;
 			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
+			padding: 4em 0 4em 0;
 		}
 
 			#main > section:first-child {
@@ -2968,7 +2971,7 @@
 			#main {
 				margin-left: 30%;
 				max-width: none;
-				padding: 6em 3em 3em 3em;
+				padding: 3em 3em 3em 3em;
 				width: calc(100% - 30%);
 			}
 

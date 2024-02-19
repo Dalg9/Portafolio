@@ -2,10 +2,13 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Header from '../components/Header.astro';
+import Experiencia from '../components/Experiencia.astro';
 
 ---
 
 <Layout title="Daniel López">
+
+    
 	<Header/>
 	<main>
 		
@@ -20,12 +23,14 @@ import Header from '../components/Header.astro';
 			  <p>
 				Soy una persona en constante aprendizaje y he adquirido habilidades como resultado de mi experiencia. He podido desarrollar habilidades relacionadas con el trabajo en equipo y la consecución de objetivos. Además, a través del autoaprendizaje, he adquirido conocimientos básicos sobre ciencia de datos y otras tecnologias.
 			  </p>
-			  <ul class="actions">
+			  <!--<ul class="actions">
 				<li><a href="#" class="button">Learn More</a></li>
-			  </ul>
+			  </ul>-->
 			</section>
-	  
-			<!-- Two -->
+	    
+        <!--
+		 	Two
+
 			<section id="projects">
 			  <h2>Recent Work</h2>
 			  <div class="row">
@@ -76,15 +81,181 @@ import Header from '../components/Header.astro';
 				<li><a href="#" class="button">Full Portfolio</a></li>
 			  </ul>
 			</section>
-	  
+		-->   
+		
+		<Experiencia/>
+		<header class="major">
+			<h2 id="titulo_proyectos">
+				Proyectos<br />
+				
+			</h2>
+		</header>
+		    <ol class="group/list">
+				<li class="mb-12">
+					<div class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+						<div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+						<header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2018 to Present">Lenguaje de Programación</header>
+						<div class="z-10 sm:col-span-6">
+							<h3 class="font-medium leading-snug text-slate-200">
+								<div>
+									<a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" href="https://replit.com/@DANIEL-ALBERT32/Fundamentos-de-Python-fijo-3" target="_blank" rel="noreferrer noopener" aria-label="Lead Engineer at Upstatement (opens in a new tab)">
+										<span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+										<span>Proyecto ·<!-- --> 
+											<span class="inline-block">Python
+												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+													<path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+												</svg>
+											</span>
+										</span>
+									</a>
+								</div>
+								
+							</h3>
+							<p class="mt-2 text-sm leading-normal">Se desarrollo un juego, el cual consiste en emular el clasico piedra,papel y tijeras.</p>
+							<ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+								<li class="mr-1.5 mt-2">
+									<div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Python</div>
+								</li>
+				
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="mb-12">
+					<div class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+						<div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+						<header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="July to December 2017">Ofimatica</header>
+						<div class="z-10 sm:col-span-6">
+							<h3 class="font-medium leading-snug text-slate-200">
+								<div>
+									<a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" href="https://onedrive.live.com/view.aspx?resid=4AC9255980AFF2FA%21359&authkey=!AEW8UNZ5mBx3qGI" target="_blank" rel="noreferrer noopener" aria-label="UI Engineer Co-op at Apple (opens in a new tab)">
+										<span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+										<span>Balance Panaderia ·<!-- --> 
+											<span class="inline-block">Excel
+												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+												 <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+											    </svg>
+										    </span>
+									    </span>
+								    </a>
+								</div>
+							</h3>
+							<p class="mt-2 text-sm leading-normal">Uso intermedio de Excel con referencia a ventas de una panaderia, ademas creacion de Dasboard.</p>
+							
+							<ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+								<li class="mr-1.5 mt-2">
+									<div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Excel</div>
+								</li>
+								
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="mb-12">
+					<div class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+						<div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+						<header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="July to December 2017">Portafolio</header>
+						<div class="z-10 sm:col-span-6">
+							<h3 class="font-medium leading-snug text-slate-200">
+								<div>
+									<a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" href="https://onedrive.live.com/view.aspx?resid=4AC9255980AFF2FA%21359&authkey=!AEW8UNZ5mBx3qGI" target="_blank" rel="noreferrer noopener" >
+										<span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+										<span>Pagina Web <!-- --> 
+											<span class="inline-block">
+												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+												 <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+											    </svg>
+										    </span>
+									    </span>
+								    </a>
+								</div>
+							</h3>
+							<p class="mt-2 text-sm leading-normal">Elaboracion de pagina web con el objetivo de dar a conocer los proyectos que se han relaizado</p>
+							
+							<ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+								<li class="mr-1.5 mt-2">
+									<div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Html</div>
+								</li>
+									<li class="mr-1.5 mt-2">
+										<div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">CSS</div>
+									</li>
+										<li class="mr-1.5 mt-2">
+											<div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Astro</div>
+										</li>
+								</li>
+								
+							</ul>
+						</div>
+					</div>
+				</li>
+		 <!-- Habilidades -->
+		 <header class="major">
+			<h2>
+				Habilidades<br />
+			</h2>
+		</header>
+				<ul class="mb-10 ms-4">
+					
+				
+					<li>
+						<a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" href="/src/components/python (1) (1).pdf" target="_blank" rel="noreferrer noopener" >
+							<span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+							<span>Python <!-- --> 
+								<span class="inline-block">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+									<path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+									</svg>
+								</span>
+							</span>
+						</a>
+					</li>
+					<li>
+						<a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" href="/src/components/diploma-ai_merged (1) (2).pdf" target="_blank" rel="noreferrer noopener" >
+							<span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+							<span>Manejo herramientas de Inteligencia Artificial <!-- --> 
+								<span class="inline-block">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+									<path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+									</svg>
+								</span>
+							</span>
+						</a>
+					</li>
+					<li>
+						<a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" href="/src/components/economia_digital (1) (1).pdf" target="_blank" rel="noreferrer noopener" >
+							<span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+							<span>Economia Digital <!-- --> 
+								<span class="inline-block">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+									<path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+									</svg>
+								</span>
+							</span>
+						</a>
+					</li>
+					<li>
+						<a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" href="/src/components/excel_merged (1) (1).pdf" target="_blank" rel="noreferrer noopener" >
+							<span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+							<span>Excel <!-- --> 
+								<span class="inline-block">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+									<path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+									</svg>
+								</span>
+							</span>
+						</a>
+					</li>
+				</ul>
 			<!-- Three -->
-			<section id="three">
+			<!--<section id="three">
 			  <h2>Get In Touch</h2>
 			  <p>
 				Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
 				magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
 				vulputate lorem neque lorem ipsum dolor.
 			  </p>
+			  
 			  <div class="row">
 				<div class="col-8 col-12-small">
 				  <form method="post" action="#">
@@ -114,6 +285,7 @@ import Header from '../components/Header.astro';
 					<li><input type="submit" value="Send Message" /></li>
 				  </ul>
 				</div>
+				
 				<div class="col-4 col-12-small">
 				  <ul class="labeled-icons">
 					<li>
@@ -137,7 +309,7 @@ import Header from '../components/Header.astro';
 					  <a href="#">hello@untitled.tld</a>
 					</li>
 				  </ul>
-				</div>
+				</div>-->
 			  </div>
 			</section>
 
@@ -146,7 +318,7 @@ import Header from '../components/Header.astro';
 </Layout>
 
 <style>
-	main {
+	main{
 		
 	}
 </style>
